@@ -37,9 +37,9 @@ foreach (var item in sorrend)
 {
     if (item.Rating == -1)
     {
-        Console.WriteLine($"NO RESULT \t {item.AppName}");
+        Console.WriteLine($"NO RESULT \t {item.AppName}-{item.CurrentVer}");
     }
-    else Console.WriteLine($"{item.Rating} \t {item.AppName}");
+    else Console.WriteLine($"{item.Rating} \t {item.AppName}-{item.CurrentVer}");
 }
 
 sw.Close();
